@@ -20,3 +20,5 @@ SCI 5828 - Fall 2016
 - git commit -m "Commit 2"
 - git log
 - git checkout c17dc94a60810253a2c5eee04e0b649d95f21026
+
+*Bug-fix branch:*
