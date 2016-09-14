@@ -5,7 +5,7 @@ SCI 5828 - Fall 2016
 **Author:** Yue ZHANG
 
 **Goal:** To get familiar with Git. Due by Lec 09 start.
-
+commit 4
 *Master branch:*
 
 - git init
