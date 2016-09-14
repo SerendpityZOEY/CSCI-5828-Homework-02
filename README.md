@@ -5,7 +5,7 @@
 **Author:** Yue ZHANG
 
 **Goal:** To get familiar with Git. Due by Lec 09 start.
-commit 4
+
 *Master branch:*
 
 - git init
@@ -27,14 +27,6 @@ commit 4
 - vi README.md [Edit README.md]
 - git add README.md
 - git commit -m "Commit 3"
-
-*Master branch:*
-
-- vi README.md [Edit README.md]
-- git add README.md
-- git commit -m "Commit 10"
-- git checkout bug-fix
-
 - vi README.md [Edit README.md]
 - git add README.md
 - git commit -m "Commit 4"
@@ -47,7 +39,6 @@ commit 4
 - git commit -m "Commit 6"
 - git log
 - git checkout dc3997c180ae6ecd09194033fe4b36947d73d294
-
 
 *Bug-fix-experimental branch:*
 
@@ -63,7 +54,30 @@ commit 4
 - git commit -m "Commit 9"
 - git checkout master
 
-- git merge bug-fix-experimental [Commit 11]
+*Master branch:*
+
 - vi README.md [Edit README.md]
 - git add README.md
+- git commit -m "Commit 10"
+- git checkout bug-fix
 
+*Bug-fix branch:*
+
+- git merge bug-fix-experimental
+- vi README.md [Edit README.md]
+- git add README.md
+- git commit -m "Commit 11 fix conflict"
+- vi README.md [Edit README.md]
+- git add README.md
+- git commit -m "Commit 12"
+- git checkout master
+
+*Master branch:*
+
+- git merge bug-fix
+- vi README.md [Edit README.md]
+- git add README.md
+- git commit -m "Commit 13 fix conflict"
+- vi README.md [Edit README.md]
+- git add README.md graph.png
+- git commit -m "Commit 14"
