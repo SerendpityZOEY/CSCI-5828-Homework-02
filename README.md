@@ -27,3 +27,8 @@ commit 4
 - vi README.md [Edit README.md]
 - git add README.md
 - git commit -m "Commit 3"
+
+- vi README.md [Edit README.md]
+- git add README.md
+- git commit -m "Commit 6"
+- git log
