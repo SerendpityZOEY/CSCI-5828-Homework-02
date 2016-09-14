@@ -19,4 +19,4 @@ SCI 5828 - Fall 2016
 - git add README.md
 - git commit -m "Commit 2"
 - git log
-- git checkout c17dc94a60810253a2c5eee04e0b649d95f21026
+- git checkout 2f4503c2cc31b2d2f56043d5ef0902bf13390576
