@@ -27,3 +27,11 @@ SCI 5828 - Fall 2016
 - vi README.md [Edit README.md]
 - git add README.md
 - git commit -m "Commit 3"
+
+*Master branch:*
+
+- vi README.md [Edit README.md]
+- git add README.md
+- git commit -m "Commit 10"
+- git checkout bug-fix
+
