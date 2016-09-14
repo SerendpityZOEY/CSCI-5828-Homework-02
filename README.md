@@ -22,3 +22,8 @@ SCI 5828 - Fall 2016
 - git checkout c17dc94a60810253a2c5eee04e0b649d95f21026
 
 *Bug-fix branch:*
+
+- git checkout -b bug-fix
+- vi README.md [Edit README.md]
+- git add README.md
+- git commit -m "Commit 3"
