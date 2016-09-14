@@ -55,3 +55,7 @@ commit 4
 - git add README.md
 - git commit -m "Commit 9"
 - git checkout master
+
+- git merge bug-fix-experimental [Commit 11]
+- vi README.md [Edit README.md]
+- git add README.md
